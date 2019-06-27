@@ -4,5 +4,11 @@
     <hr>
     <p>My Shopping List</p>
   </div>
-
 </div>
+    <div class="row">
+      <div class="col-sm-12">
+      <ul class="list-group">
+        <a class="list-group-item" *ngFor="let ingredient of ingredients">{{ingredient.name}}</a>
+      </ul>
+    </div>
+    </div>
